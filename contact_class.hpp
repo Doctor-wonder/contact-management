@@ -42,4 +42,6 @@ public:
 
     void merge_contacts(Contact other_contact);
 
+    void is_birthday(std::string date);
+
 };

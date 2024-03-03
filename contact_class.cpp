@@ -115,3 +115,16 @@ void Contact::merge_contacts(Contact other_contact){
     }
 
 }
+
+void Contact::is_birthday(std::string date){
+    std::string temp_birth = birthday;
+
+    temp_birth.resize(5);
+    date.resize(5);
+
+    if(!temp_birth.compare(date)){
+        std::cout << "It is " << first_name << "'s birthday!" << std::endl;
+    }else{
+        std::cout << "It isn't " << first_name << "'s birthday." << std::endl;
+    }
+}

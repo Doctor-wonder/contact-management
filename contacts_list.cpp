@@ -25,5 +25,10 @@ int main(){
 
     Niaomi.print_contact();
 
+    Contact Mary("Mary", "Smith");
+    Mary.set_bithday("03/03/2000");
+
+    Mary.is_birthday("03/03/2023");
+
     return 0;
 }
