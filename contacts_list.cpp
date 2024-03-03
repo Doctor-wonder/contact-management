@@ -7,8 +7,6 @@
 
 int main(){
 
-    std::cout << "Hello World!" << std::endl;
-
     Contact Niaomi("Niaomi", "Peck");
 
     Contact Jordan("Jordan", "Lastname");
