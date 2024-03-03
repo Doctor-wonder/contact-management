@@ -34,6 +34,10 @@ void Contact::set_name( std::string fn, std::string ln ){
     last_name = ln;
 }
 
+void Contact::set_name( std::string fn){
+    first_name = fn;
+}
+
 void Contact::set_bithday(std::string bd){
     std::string temp;
 

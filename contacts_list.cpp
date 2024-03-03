@@ -11,7 +11,7 @@ int main(){
 
     Contact Niaomi;
 
-    Niaomi.set_name("Niaomi", "Peck");
+    Niaomi.set_name("Niaomi");
 
     Niaomi.print_name();
 

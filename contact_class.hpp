@@ -20,6 +20,8 @@ public:
 
     void set_name( std::string fn, std::string ln );
 
+    void set_name( std::string fn);
+
     void set_bithday(std::string bd);
 
     void add_phone_number(int pn);
